@@ -1,0 +1,5 @@
+FileName = ("/home/ubuntu/data.txt")
+data=file(FileName).readlines()
+data.sort()
+for i in range(len(data)):
+    print data[i]
